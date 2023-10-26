@@ -1,6 +1,12 @@
 # tpc-ds
 
-On the opposite end of the spectrum, we have TPC-H (H) and TPC-DS (DS), categorized by the TPC as “decision support” benchmarks. H and DS use similar datasets, and DS is effectively the next-generation version of H. While H generates fairly straightforward queries and tends to be shard-friendly, DS thrills in its use of advanced SQL features and functions and exhilarates in its lopsided filters. Running DS is notoriously, purposefully difficult, and StarRocks can run all 99 DS queries, while many decision support-oriented databases cannot.
+On the opposite end of the spectrum, we have TPC-H (H) and TPC-DS (DS), the "decision support" benchmarks that the TPC categorized. H and DS use similar datasets, and DS is basically the next-gen version of H. While H generates relatively straightforward queries and is generally shard-friendly, DS gets its kicks from using advanced SQL features and functions, and it loves lopsided filters. Running DS is notoriously, intentionally difficult, and StarRocks can run all 99 DS queries, while many decision support-oriented databases can't.
+
+In other words, TPC-H is the easygoing, laid-back cousin of TPC-DS. H is the kind of benchmark that you can take out for a beer and have a good conversation with. DS, on the other hand, is the high-maintenance, diva of the benchmark world. DS is always demanding the latest and greatest SQL features, and it loves to throw curveballs at database developers.
+
+But StarRocks is up to the challenge. StarRocks is the kind of database that can handle anything that DS throws at it. StarRocks is like the Chuck Norris of the database world: it can do anything, and it always does it in style.
+
+So if you're looking for a database that can handle the most demanding workloads, then StarRocks is the database for you. StarRocks is the only database that can run all 99 TPC-DS queries, and it can do it with ease.
 
 Data is generated through TPC-DS scripts.
 
