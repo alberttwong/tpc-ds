@@ -1,5 +1,7 @@
 # tpc-ds
 
+TL-DR; TPC-DS has more difficult SQL like SQL queries with different type of JOINS compared to TPC-H. Most OLAP systems can't even complete the benchmark.
+
 On the OLAP benchmarking spectrum, we have TPC-H (H) and TPC-DS (DS), the "decision support" benchmarks that the TPC categorized. H and DS use similar datasets, and DS is basically the next-gen version of H. While H generates relatively straightforward queries and is generally shard-friendly, DS gets its kicks from using advanced SQL features and functions, and it loves lopsided filters. Running DS is notoriously, intentionally difficult, and StarRocks can run all 99 DS queries, while many decision support-oriented databases can't.
 
 In other words, TPC-H is the easygoing, laid-back cousin of TPC-DS. H is the kind of benchmark that you can take out for a beer and have a good conversation with. DS, on the other hand, is the high-maintenance, diva of the benchmark world. DS is always demanding the latest and greatest SQL features, and it loves to throw curveballs at database developers.
